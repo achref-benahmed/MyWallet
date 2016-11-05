@@ -1,0 +1,28 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "phoneNumber": {
+      "type": "number"
+    },
+    "userType": {
+      "type": "string",
+      "required": true
+    },
+    "userBudget": {
+      "type": "number",
+      "required": true
+    },
+    "userData": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
