@@ -13,6 +13,8 @@
       "./mixins"
     ]
   },
+
+  
   "User": {
     "dataSource": "db"
   },
@@ -33,7 +35,7 @@
     "public": false
   },
   "user": {
-    "dataSource": "mongo",
+    "dataSource": "Masroufidb",
     "public": true
   }
 }
