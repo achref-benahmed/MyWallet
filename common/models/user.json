@@ -8,10 +8,12 @@
   },
   "properties": {
     "gendre": {
-      "type": "string"
+      "type": "string",
+      "required" : false
     },
     "age": {
-      "type": "number"
+      "type": "number",
+      "required" : false
     }
   },
   "validations": [],
