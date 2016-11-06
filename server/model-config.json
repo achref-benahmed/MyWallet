@@ -35,13 +35,5 @@
   "user": {
     "dataSource": "Masroufidb",
     "public": true,
-    "acls": [
-        {
-            "principalType": "ROLE",
-            "principalId": "$everyone",
-            "permission": "ALLOW",
-            "accessType": "*"
-        }
-    ],
   }
 }
