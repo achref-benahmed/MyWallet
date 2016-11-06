@@ -18,11 +18,14 @@
   "relations": {},
   "acls": [
     {
-      "accessType": "*",
+      
+      "accessType": "EXECUTE",
       "principalType": "ROLE",
       "principalId": "admin",
-      "permission": "ALLOW"
+      "permission": "ALLOW",
+      "property": "find"
     }
+    
   ],
   "methods": {}
 }
