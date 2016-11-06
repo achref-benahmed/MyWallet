@@ -14,8 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "db"
   },
   "AccessToken": {
     "dataSource": "db",
@@ -27,11 +26,11 @@
   },
   "RoleMapping": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "Role": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "user": {
     "dataSource": "Masroufidb",
