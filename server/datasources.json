@@ -4,8 +4,8 @@
     "connector": "memory"
   },
   "Masroufidb": {
+    "url": "mongodb://AchrefBA:1234azer@ds053176.mlab.com:53176/masroufidb",
     "name": "Masroufidb",
-    "connector": "mongodb",
-    "url": "mongodb://AchrefBA:1234azer@ds053176.mlab.com:53176/masroufidb"
+    "connector": "mongodb"
   }
 }

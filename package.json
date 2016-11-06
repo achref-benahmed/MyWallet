@@ -28,11 +28,10 @@
     "type": "",
     "url": ""
   },
-  "engines":{
+  "engines": {
     "node": "4.2.4",
     "npm": "3.10.2"
   },
   "license": "UNLICENSED",
   "description": "MyWallet"
 }
-    
