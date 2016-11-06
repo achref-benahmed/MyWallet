@@ -2,7 +2,6 @@
   "name": "user",
   "plural": "users",
   "base": "User",
-  "public":"true",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -20,11 +19,10 @@
   "acls": [
     {
       
-      "accessType": "EXECUTE",
+      "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "admin",
-      "permission": "ALLOW",
-      "property": "find"
+      "principalId": "$everyone",
+      "permission": "ALLOW"
     }
     
   ],
