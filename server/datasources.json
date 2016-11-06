@@ -2,10 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  },
-  "Masroufidb": {
-    "name": "Masroufidb",
-    "connector": "mongodb",
-    "url": "mongodb://localhost:27017/Masroufidb"
   }
 }
