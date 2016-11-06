@@ -2,6 +2,7 @@
   "name": "user",
   "plural": "users",
   "base": "User",
+  "public":"true",
   "idInjection": true,
   "options": {
     "validateUpsert": true
