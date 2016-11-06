@@ -13,8 +13,6 @@
       "./mixins"
     ]
   },
-
-  
   "User": {
     "dataSource": "db"
   },
@@ -33,9 +31,5 @@
   "Role": {
     "dataSource": "db",
     "public": false
-  },
-  "user": {
-    "dataSource": "Masroufidb",
-    "public": true
   }
 }

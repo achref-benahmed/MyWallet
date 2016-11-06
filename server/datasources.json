@@ -2,9 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  },
-  "Masroufidb": {
-    "name": "Masroufidb",
-    "connector": "mongodb"
   }
 }
