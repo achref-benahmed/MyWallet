@@ -34,6 +34,6 @@
   },
   "user": {
     "dataSource": "Masroufidb",
-    "public": true,
+    "public": true
   }
 }
