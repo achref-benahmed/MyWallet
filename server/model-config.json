@@ -14,7 +14,7 @@
     ]
   },
 
-
+  
   "User": {
     "dataSource": "db"
   },
@@ -35,7 +35,7 @@
     "public": false
   },
   "user": {
-    "dataSource": "db",
+    "dataSource": "Masroufidb",
     "public": true
   }
 }
