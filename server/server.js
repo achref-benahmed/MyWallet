@@ -4,10 +4,11 @@ var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
+var port = process.env.PORT || 8000;
 
 app.start = function() {
   // start the web server
-  return app.listen(function() {
+  return app.listen(port,function() {
     app.emit('started');
     var baseUrl = app.get('url').replace(/\/$/, '');
     console.log('Web server listening at: %s', baseUrl);
