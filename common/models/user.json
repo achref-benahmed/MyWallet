@@ -14,8 +14,21 @@
     "age": {
       "type": "number",
       "required" : false
-    }
+    },
+    "address" : {
+      "type": "string",
+      "required" : false
+      },
+      "country":{
+        "type": "string",
+      "required" : false
+      },
+      "phoneNumber" :{
+        "type": "string",
+      "required" : false
+      }
   },
+
   "validations": [],
   "relations": {},
  "acls": [
