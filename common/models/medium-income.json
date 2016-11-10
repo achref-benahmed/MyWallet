@@ -1,0 +1,30 @@
+{
+  "name": "mediumIncome",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "income": {
+      "type": "number",
+      "required": true,
+      "default": 2000
+    },
+    "currency": {
+      "type": "string",
+      "required": true,
+      "default": "$"
+    },
+    "budget": {
+      "type": "number"
+    },
+    "challenge": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

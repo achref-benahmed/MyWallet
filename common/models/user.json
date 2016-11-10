@@ -9,29 +9,28 @@
   "properties": {
     "gendre": {
       "type": "string",
-      "required" : false
+      "required": false
     },
     "age": {
       "type": "number",
-      "required" : false
+      "required": false
     },
-    "address" : {
+    "address": {
       "type": "string",
-      "required" : false
-      },
-      "country":{
-        "type": "string",
-      "required" : false
-      },
-      "phoneNumber" :{
-        "type": "string",
-      "required" : false
-      }
+      "required": false
+    },
+    "country": {
+      "type": "string",
+      "required": false
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": false
+    }
   },
-
   "validations": [],
   "relations": {},
- "acls": [
+  "acls": [
     {
       "accessType": "*",
       "principalType": "ROLE",

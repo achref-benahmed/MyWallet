@@ -35,5 +35,17 @@
   "user": {
     "dataSource": "Masroufidb",
     "public": true
+  },
+  "lowIncome": {
+    "dataSource": "Masroufidb",
+    "public": true
+  },
+  "mediumIncome": {
+    "dataSource": "Masroufidb",
+    "public": true
+  },
+  "highIncome": {
+    "dataSource": "Masroufidb",
+    "public": true
   }
 }
