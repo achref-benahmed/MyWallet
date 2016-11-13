@@ -6,10 +6,10 @@
     "validateUpsert": true
   },
   "properties": {
-    "userId" :{
+    "userId": {
       "type": "string",
       "required": true
-      },
+    },
     "income": {
       "type": "number",
       "required": true,

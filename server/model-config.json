@@ -47,5 +47,17 @@
   "highIncome": {
     "dataSource": "Masroufidb",
     "public": true
+  },
+  "student": {
+    "dataSource": "Masroufidb",
+    "public": true
+  },
+  "startup": {
+    "dataSource": "Masroufidb",
+    "public": true
+  },
+  "organization": {
+    "dataSource": "Masroufidb",
+    "public": true
   }
 }

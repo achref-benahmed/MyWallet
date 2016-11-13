@@ -1,5 +1,5 @@
 {
-  "name": "mediumIncome",
+  "name": "student",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,9 +11,9 @@
       "required": true
     },
     "income": {
-      "type": "number",
+      "type": "string",
       "required": true,
-      "default": 2000
+      "default": "300"
     },
     "currency": {
       "type": "string",

@@ -1,5 +1,5 @@
 {
-  "name": "mediumIncome",
+  "name": "startup",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -13,7 +13,7 @@
     "income": {
       "type": "number",
       "required": true,
-      "default": 2000
+      "default": 10000
     },
     "currency": {
       "type": "string",
